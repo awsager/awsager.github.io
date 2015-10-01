@@ -2,7 +2,39 @@ a {
 	text-decoration:none;	
 }
 
-.header {
-	font-family: "Times New Roman", sans-serif, Monaco;
-	color: darkslateblue;
+body{
+	background-image: url("images/background.jpg");
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-color: black;
 }
+
+.background_image{
+	position:absolute;
+	z-index:1;
+}
+
+.header {
+	text-align:left;	
+	font-family: "Times New Roman", sans-serif, Monaco;
+	float:left;
+}
+
+.links {
+	padding-right: 1em;
+	float: right;
+}
+
+.info {
+	font-family: monospace;
+	text-align:center;	
+	font-size: x-large;
+}
+
+/* To do: 
+compress image file
+add content
+find fonts
+menus
+make it pretty
+*/
