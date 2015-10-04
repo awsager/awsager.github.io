@@ -14,18 +14,31 @@ body{
 	z-index:1;
 }
 
-.header {
+.header h1 {
+	padding-top: .5em;
+	padding-left: .5em;
 	text-align:left;	
 	font-family: "Times New Roman", sans-serif, Monaco;
 	float:left;
+	font-size:2em;
 }
-
+	
 .links {
 	padding-right: 1em;
 	float: right;
 }
 
-.info {
+.links i {
+	color: black;
+	padding-right: .5em;
+	text-align:right;
+}
+
+.links i:hover{
+	color: white;
+}
+
+.announcements{
 	font-family: monospace;
 	text-align:center;	
 	font-size: x-large;
@@ -37,4 +50,5 @@ add content
 find fonts
 menus
 make it pretty
+mobile view
 */
