@@ -1,19 +1,6 @@
 a {
 	text-decoration:none;	
 }
-/*
-body{
-	background-image: url("images/background.jpg");
-	background-size:cover;
-	background-repeat: no-repeat;
-	background-color: black;
-}
-
-.background_image{
-	position:absolute;
-	z-index:1;
-}
-*/
 
 .header {
 	margin: 20px;
@@ -37,15 +24,13 @@ hr {
 }
 	
 .links {
-	padding-right: 1em;
 	display: block;
 	text-align: center;
 }
 
 .links i {
 	color: black;
-	padding-right: .5em;
-	text-align:center;
+	margin: .5em;
 }
 
 .links i:hover{
@@ -61,4 +46,3 @@ hr {
 #container {
 	vertical-align: middle;
 }
-
