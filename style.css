@@ -1,7 +1,7 @@
 a {
 	text-decoration:none;	
 }
-
+/*
 body{
 	background-image: url("images/background.jpg");
 	background-size:cover;
@@ -13,42 +13,52 @@ body{
 	position:absolute;
 	z-index:1;
 }
+*/
 
-.header h1 {
-	padding-top: .5em;
-	padding-left: .5em;
-	text-align:left;	
+.header {
+	margin: 20px;
+	text-align:center;	
 	font-family: "Times New Roman", sans-serif, Monaco;
-	float:left;
-	font-size:2em;
+	text-indent: 8px;
+	font-size: 55px;
+}
+
+hr {
+	border: 0;
+	height: 1px;
+	background-image: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,75), rgba(0,0,0,0));
+}
+
+#titles {
+	max-width: 75%;
+	display: block;
+	margin-left: auto;
+	margin-right:auto;
 }
 	
 .links {
 	padding-right: 1em;
-	float: right;
+	display: block;
+	text-align: center;
 }
 
 .links i {
 	color: black;
 	padding-right: .5em;
-	text-align:right;
+	text-align:center;
 }
 
 .links i:hover{
-	color: white;
+	color: grey;
 }
 
-.announcements{
+.announcements, .interests{
 	font-family: monospace;
 	text-align:center;	
 	font-size: x-large;
 }
 
-/* To do: 
-compress image file
-add content
-find fonts
-menus
-make it pretty
-mobile view
-*/
+#container {
+	vertical-align: middle;
+}
+
