@@ -30,7 +30,7 @@ hr {
 
 .links i {
 	color: black;
-	margin: .5em;
+	margin: .45em;
 }
 
 .links i:hover{
@@ -45,4 +45,8 @@ hr {
 
 #container {
 	vertical-align: middle;
+}
+
+#resume {
+	font-size:xx-large;
 }
