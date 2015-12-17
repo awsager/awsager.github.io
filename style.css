@@ -1,11 +1,12 @@
 a {
 	text-decoration:none;	
+	color: black;
 }
 
 .header {
 	margin: 20px;
 	text-align:center;	
-	font-family: "Times New Roman", sans-serif, Monaco;
+	font-family: monospace, "Times New Roman", sans-serif, Monaco;
 	text-indent: 8px;
 	font-size: 55px;
 }
@@ -24,20 +25,27 @@ hr {
 }
 	
 .links {
-	display: block;
 	text-align: center;
+	font-family: monospace;
+}
+
+.list-group-item {
+	display:inline-block;
+	margin: 10px;
+	padding: 5px;
+		box-sizing: border-box;
+	/* border: 1px solid #DDD; */
 }
 
 .links i {
 	color: black;
-	margin: .45em;
 }
 
 .links i:hover{
 	color: grey;
 }
 
-.announcements, .interests{
+.announcements, .interests, .projects{
 	font-family: monospace;
 	text-align:center;	
 	font-size: x-large;
@@ -47,6 +55,4 @@ hr {
 	vertical-align: middle;
 }
 
-#resume {
-	font-size:xx-large;
-}
+
